@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+  {% block content %}
+  <div class="card" style="margin: auto; display: block;">
+  <h1 style="margin-left: 30px;">Create an account</h1>
+    <form action="/createaccount" method="post">
+      <label style="margin-left: 30px;">Username: </label><input name="newusername" required><br><br>
+      <label style="margin-left: 30px;">Password: </label><input type="password" name="newpassword" required><br><br>
+      <input style="margin-left: 30px;" type="submit" value="Sign up">
+    </form>
+    <p style="margin-left: 30px;">Already have an account? <a href="https://miniforest.coefficient.repl.co/login">Log in instead</a></p>
+  </div>
+  {% endblock %}

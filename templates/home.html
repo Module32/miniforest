@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+  {% block content %}
+    <img src="{{ url_for('static', filename='pics/treeside.png') }}" alt="Sidelogo" style="float: right; width: 400px; margin-right: 75px;" class="marblelogo">
+    <h1 style="margin: 30px; font-size: 75px; background: -webkit-linear-gradient(#62db25, #459b1a); -webkit-background-clip: text; -webkit-text-fill-color: transparent; ">Let's change the world,<br><strong>one plant at a time.</strong></h1>
+    <h3 style="margin: 30px;">The Miniforest Foundation is an organization dedicated to pushing for a better home for all of us.</h3>
+    <h1 style="margin: 30px; color: #459b1a;">Changing the world with trees</h1>
+    <p style="margin: 30px; margin-top: -20px;">The Miniforest Foundation is dedicated to pushing for a better Earth and saving the environment through the help of people just like you.<br>Think about this: trees and plants help us a *lot*. They bring oxygen into the atmosphere, help with the water cycle, create new habitats for wild animals, and support ecosystems by a huge margin. So if the Earth helps us so much, why not help the Earth? Doing something as small as planting a flower in that unused path of grass on your front lawn all the way to planting millions of trees on the side of highways all help to promote our cause.</p>
+    <img src="{{ url_for('static', filename='pics/miyawaki.jpg') }}" alt="Miyawaki" style="float: left; width: 200px; margin-left: 30px; margin-right: 30px; border-radius: 50px; box-shadow: 0px 0px 20px #62db25;" class="marblelogo">
+    <h1 style="margin: 30px;">The Miniforest Foundation is based on the <span class="exuberant">Miyawaki method</span>.</h1>
+    <p style="margin: 30px;">Miyawaki forests were created by a Japanese botanist named Akira Miyawaki. They require minimal space but are great ways to introduce new species and create strong ecosystems. You can read more about them <a href="https://daily.jstor.org/the-miyawaki-method-a-better-way-to-build-forests/">here</a> and <a href="https://boomforest.org/en/pages/miyawaki_method">here</a>.</p>
+    <iframe align="middle" style="border-radius: 25px; display: block; margin-left: auto; margin-right: auto; border-width: 5px; border-color: #62db25; box-shadow: 0px 0px 20px #62db25;" width="920" height="515"
+      src="https://www.youtube.com/embed/l5jtg2q1gnU">
+    </iframe>
+    <h1 style="margin: 30px;">How can you contribute?</h1>
+    <div style="display: flex;">
+      <div class="card" style="margin-left: 25px; flex-direction: row;">
+      <h2><span class="exuberant">Plant some trees</span></h2>
+      <p>The best way to help our foundation right now is to plant some plants outside. You can find any suitable location, like your front yard or... Patrick's rock, as Aditya suggests...<br>(just kidding)<br>With the help of your parents/guardian(s) or Google, you can find the best plants that fit your environment and surroundings. Get started today!</p>
+    </div>
+      <div class="card" style="margin-left: 15px; flex-direction: row;">
+        <h2><span class="exuberant">Research more about this topic</span></h2>
+        <p>At the Miniforest Foundation, we're super open to any feedback or support you have for our initiative. You can help us out by learning more about our cause and contributing to our project by suggesting ways for us to expand our goal. Contact us at our email, <span class="exuberant">derivativeco2021@gmail.com</span>.<br>(NOTE: this email is temporary and may change in the future.)</p>
+      </div>
+      <div class="card" style="margin-left: 15px; flex-direction: row;">
+        <h2><span class="exuberant">Tell others about us</span></h2>
+        <p>If you like our foundation and what we are promoting, you can definitely consider telling your friends, classmates, teachers, or even communities about our project and let them know about our website! It's a great way to encourage our cause even further and help march towards a better, more positive world for everyone.</p>
+      </div>
+    </div>
+    <div class="partofot" style="margin-top: 50px;">
+      <h1 style="color: white;">The Miniforest Foundation is part of Open Terminal.</h1>
+      <h5 style="color: white;">Open Terminal is an initiative started by Module64#8821 and MrNames#8920 dedicated towards propelling the next generation of technology and bringing accessible software and hardware for all.</h5>
+    </div>
+    <h1 style="text-align: center; margin-top: 45px;">Let's make a new future today.</h1>
+    <h6 style="text-align: center;"><a href="https://miniforest.coefficient.repl.co/">https://miniforest.coefficient.repl.co/</a></h6>
+  {% endblock %}

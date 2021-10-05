@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Miniforest Foundation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='pics/favicon.png') }}" /> 
+</head>
+<body>
+  <ul>
+  <button style="float: right; margin-top: -15px;" type="button" class="button button1"><a href="https://miniforest.coefficient.repl.co/login" style="color: black;">Login</a></button>
+    <button style="float: right; margin-top: -15px;" type="button" class="button button1"><a href="https://miniforest.coefficient.repl.co/account" style="color: black;">My Account</a></button>
+  <li><a href="/" class="navlink">Home</a></li>
+  <li><a href="https://miniforest.coefficient.repl.co/about" class="navlink">About</a></li>
+  <li><a href="https://miniforest.coefficient.repl.co/members" class="navlink" class="navlink">Members</a></li>
+  <li><a href="https://miniforest.coefficient.repl.co/info" class="navlink" class="navlink">Information</a></li>
+  <li><a href="https://miniforest.coefficient.repl.co/contribute" class="navlink" class="navlink">Contribute</a></li>
+  <li><a href="https://discord.gg/6ZQtXy5KA5" class="navlink" class="navlink">Discord</a></li>
+</ul>
+<div id="content">{% block content %}{% endblock %}</div>
+<footer style="margin-top: 50px;">
+  <h3>The Miniforest Foundation</h3>
+  <p style="font-size: 10px;">Copyright 2021-<script type="text/javascript">document.write( new Date().getFullYear() );</script>. The Miniforest Foundation was initiated by Module64 in 2021 after he was looking at apple trees while picking for apples.</p>
+</footer>
+</body>
+</html>
